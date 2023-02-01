@@ -22,12 +22,12 @@ string PrintArray(int[] priarray)
     }
     return output;
 }
-int[] CountMult(int[] colection)
+int[] CountMult(int[] collection)
 {
-    int[] arrMult = new int[colection.Length / 2];
-    for (int i = 0; i < colection.Length / 2; i++)
+    int[] arrMult = new int[collection.Length / 2];
+    for (int i = 0; i < collection.Length / 2; i++)
     {
-        arrMult[i] = colection[i] * colection[colection.Length - 1 - i];
+        arrMult[i] = collection[i] * collection[collection.Length - 1 - i];
     }
     return arrMult;
 }
